@@ -9,3 +9,9 @@ def hello_world():
 @app.get("/ping")
 def ping():
     return {"status": "online"}
+
+@app.get('/test')
+def test():
+    return {
+        "test":"coba saja"
+    }
